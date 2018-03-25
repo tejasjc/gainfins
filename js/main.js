@@ -27,25 +27,7 @@ $(document).ready(function(){
         $(".navigation").removeClass("animated");
     }});
 
-    $('#countdown_dashboard').countDown({
-        targetDate: {
-            'day':      30,
-            'month':    12,
-            'year':     2018,
-            'hour':     23,
-            'min':      59,
-            'sec':      59,
-        },
-        omitWeeks: true
-    });
 
-    $(".about-slider").owlCarousel(
-        {
-        singleItem: true,
-        pagination : true,
-        autoPlay : 5000,
-        }
-    );
 
     /*$('input, textarea').data('holder', $('input, textarea').attr('placeholder'));
 
